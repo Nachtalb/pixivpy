@@ -1,14 +1,7 @@
 from __future__ import annotations
 
 import urllib.parse as up
-from typing import Any
-
-try:
-    # Python>=3.8
-    from typing import Literal
-except ImportError:
-    # Python ==3.7
-    from typing_extensions import Literal  # type: ignore[assignment]
+from typing import Any, Literal
 
 try:
     # Python>=3.10
